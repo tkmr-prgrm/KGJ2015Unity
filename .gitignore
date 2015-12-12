@@ -13,10 +13,6 @@
 #  Use ! to negate a previous pattern.  But it doesn't work if the parent sub-folder was masked out already.
 # 
 
-# Ignore all files by default, but scan all directories
-*
-!*/
-
 # C/C++ source files
 !*.c
 !*.cc
