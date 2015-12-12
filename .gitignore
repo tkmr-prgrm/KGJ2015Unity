@@ -13,6 +13,9 @@
 #  Use ! to negate a previous pattern.  But it doesn't work if the parent sub-folder was masked out already.
 # 
 
+# Ignore Binaries
+/Engine/Binaries
+
 # C/C++ source files
 !*.c
 !*.cc
