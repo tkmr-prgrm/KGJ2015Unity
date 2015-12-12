@@ -103,6 +103,9 @@
 !VERSION
 !ChangeLog
 
+# Ignore Unix backup files
+*~
+
 # Exceptions
 /*.sln
 /*.xcodeproj
@@ -110,9 +113,6 @@
 /CMakeLists.txt
 *.target.xml
 *.exe.config
-
-# Ignore Unix backup files
-*~
 
 # Add exceptions for Mac Mono binaries needed to run GitDependencies.exe.
 !/Engine/Binaries/ThirdParty/Mono/Mac/bin/*
@@ -133,6 +133,9 @@
 # ...and GitDependencies.exe
 !/Engine/Binaries/DotNET/GitDependencies.exe
 !/Engine/Binaries/DotNET/GitDependencies.exe.config
+
+# Don't Ignore content folders
+!Content/
 
 # Ignore DDC
 /Engine/DerivedDataCache/**
